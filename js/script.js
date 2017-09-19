@@ -1,4 +1,5 @@
 var cnid = document.getElementById("CounterNumber");
+var lodr = document.getElementById("loader");
 cnid.setAttribute("title", window.location.hostname);
 //Call Application
 function app(){
@@ -16,6 +17,7 @@ function app(){
 }
 //Makes app visiable and animate In
 function load(){
+ lodr.className += "hide";
  cnid.classList.remove("hide");
  cnid.className += "animated fadeIn";
  app();
