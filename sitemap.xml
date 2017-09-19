@@ -5,10 +5,4 @@
 		<changefreq>daily</changefreq>
 		<priority>0.8</priority>
 	</url>
-	<url>
-		<loc>https://evilcounter.tk/articles/</loc>
-		<lastmod>2005-01-01</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.4</priority>
-	</url>
 </urlset> 
